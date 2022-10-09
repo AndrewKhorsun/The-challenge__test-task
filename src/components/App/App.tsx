@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useGetListQuery } from "../../app/api";
 import { ItemListInit } from "../ItemsList/ItemListInit";
 import { ItemListEdited } from "../ItemListEdited/ItemListEdited";
@@ -10,12 +11,12 @@ export const App: React.FC = () => {
 
   function editItems(data: List[], idProp: any, parentProp: any) {
     const tree = Object.fromEntries(
-      data.map((el: any) => [el[idProp], { ...el, children: [] }])
+      data.map((el: any) => [el[idProp], { ...el, children: [] }]),
     );
 
     return Object.values(tree).filter(
       (el: any) =>
-        !(tree[el[parentProp]] && tree[el[parentProp]].children.push(el))
+        !(tree[el[parentProp]] && tree[el[parentProp]].children.push(el)),
     );
   }
 
@@ -31,6 +32,7 @@ export const App: React.FC = () => {
 
       <div className="d-flex justify-content-around mt-5">
         {items && <ItemListInit itemsList={items} />}
+
         <div>
           {editedElements && <ItemListEdited itemsList={editedElements} />}
         </div>

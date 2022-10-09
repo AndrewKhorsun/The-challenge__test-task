@@ -1,6 +1,7 @@
 {
   "name": "challenge",
   "version": "0.1.0",
+  "homepage": "https://github.com/AndrewKhorsun/The-challenge__test-task",
   "description": "The challenge",
   "private": true,
   "dependencies": {
@@ -23,7 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint -c .eslintrc --ext .ts,.tsx .",
+    "lint:fix": "npm run lint -- --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -36,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

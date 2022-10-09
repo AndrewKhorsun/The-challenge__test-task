@@ -1,4 +1,5 @@
 import React from "react";
+
 import { List } from "../../types/List";
 
 type Props = {
@@ -6,7 +7,7 @@ type Props = {
 };
 
 export const ItemListEdited: React.FC<Props> = ({ itemsList }) => {
-  const x = 0;
+  
   return (
     <>
       {itemsList.map((item) => (
