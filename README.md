@@ -1,6 +1,7 @@
 # [Link](https://andrewkhorsun.github.io/The-challenge__test-task/)
 
-In this project I used : React, TypeScript, RTQ
+## In this project I used : React, TypeScript, RTQ, Bootstrap
+
 
 
 
