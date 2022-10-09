@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AndrewKhorsun/The-challenge__test-task/static/css/main.1ff25929.css",
-    "main.js": "/AndrewKhorsun/The-challenge__test-task/static/js/main.f2332954.js",
+    "main.js": "/AndrewKhorsun/The-challenge__test-task/static/js/main.f3ed6906.js",
     "index.html": "/AndrewKhorsun/The-challenge__test-task/index.html",
     "main.1ff25929.css.map": "/AndrewKhorsun/The-challenge__test-task/static/css/main.1ff25929.css.map",
-    "main.f2332954.js.map": "/AndrewKhorsun/The-challenge__test-task/static/js/main.f2332954.js.map"
+    "main.f3ed6906.js.map": "/AndrewKhorsun/The-challenge__test-task/static/js/main.f3ed6906.js.map"
   },
   "entrypoints": [
     "static/css/main.1ff25929.css",
-    "static/js/main.f2332954.js"
+    "static/js/main.f3ed6906.js"
   ]
 }
